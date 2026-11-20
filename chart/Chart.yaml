@@ -1,0 +1,13 @@
+apiVersion: v2
+name: config-server
+description: "SpendWise config-server — Spring Cloud Config server (Git backend: spendwise-config)"
+type: application
+# Base version. The pipeline packages every main build as
+# <version>-g<short commit> with the image digest written into values.yaml.
+version: 1.0.0
+appVersion: "main"
+home: https://github.com/PrathameshMax/spendwise-config-server
+sources:
+  - https://github.com/PrathameshMax/spendwise-config-server
+maintainers:
+  - name: PrathameshMax
